@@ -17,4 +17,4 @@ Link de acesso ao vídeo do projeto inicial: https://youtu.be/r9buAwVBDhA
 
 Este projeto foi feito pelo canal "Manual do Dev". O professor tem uma didática ótima, e consegui entender muitos conceitos com os quais estava tendo dificuldade através deste projeto.
 
-Este projeto foi inicialmente inspirado no tutorial "Como criar um jogo SIMPLES usando JavaScript e HTML" (https://youtu.be/r9buAwVBDhA) e aprimorado por [Emilly Fernandes]. Agradecimentos especiais ao [Manual do Dev] pela criação do projeto base que serviu como fonte de muita evolução e aprendizagem.
+Este projeto foi inicialmente inspirado no tutorial "Como criar um jogo SIMPLES usando JavaScript e HTML" (https://youtu.be/r9buAwVBDhA). Agradecimentos especiais ao [Manual do Dev] pela criação do projeto base que serviu como fonte de muita evolução e aprendizagem.
