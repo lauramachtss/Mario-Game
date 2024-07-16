@@ -1,5 +1,9 @@
 No jogo do Mario, o objetivo é ajudar o personagem principal, Mario, a evitar obstáculos que aparecem repetidamente na tela. O jogador precisa pressionar a barra de espaço do teclado para fazer o Mario pular e evitar colisões com esses obstáculos. Se Mario colidir com um obstáculo, o jogo termina.
 
+
+<h2 dir="auto"></h2>
+
+
 Recursos Aprimorados
 
 Tela de Game Over: Quando o jogador perde, agora é exibida uma tela de Game Over, indicando que Mario colidiu com um obstáculo. Isso proporciona um feedback visual adicional ao jogo.
