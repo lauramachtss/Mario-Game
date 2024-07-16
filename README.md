@@ -11,7 +11,7 @@ Novas Teclas de Funcionalidade: Além das teclas de salto existentes, foram adic
 
 <h2 dir="auto"></h2>
 
-CRÉDITOS
+Créditos 
 
 Link de acesso ao vídeo do projeto inicial: https://youtu.be/r9buAwVBDhA
 
