@@ -7,3 +7,12 @@ Tela de Game Over: Quando o jogador perde, agora é exibida uma tela de Game Ove
 Botão de Reinício: Após o término do jogo, o jogador pode reiniciá-lo facilmente com um novo botão de reinício, eliminando a necessidade de recarregar a página para jogar novamente.
 
 Novas Teclas de Funcionalidade: Além das teclas de salto existentes, foram adicionadas novas teclas de funcionalidade, oferecendo mais opções de interação durante o jogo.
+
+
+Créditos
+
+Link de acesso ao vídeo do projeto inicial: https://youtu.be/r9buAwVBDhA
+
+Este projeto foi feito pelo canal "Manual do Dev". O professor tem uma didática ótima, e consegui entender muitos conceitos com os quais estava tendo dificuldade através deste projeto.
+
+Este projeto foi inicialmente inspirado no tutorial "Como criar um jogo SIMPLES usando JavaScript e HTML" (https://youtu.be/r9buAwVBDhA) e aprimorado por [Emilly Fernandes]. Agradecimentos especiais ao [Manual do Dev] pela criação do projeto base que serviu como fonte de muita evolução e aprendizagem.
