@@ -7,11 +7,11 @@ const eg = 0.25;
 let booljump = true;
 let ci;
 let basepos;
-const audio = new Audio('audio/mariotheme.mp3');
-const coinaudio = new Audio('audio/coin.mp3');
-let isplaying = 0;
-let audbut = document.getElementById('audio');
-function audioplay() {
+//const audio = new Audio('audio/mariotheme.mp3');
+//const coinaudio = new Audio('audio/coin.mp3');
+//let isplaying = 0;
+//let audbut = document.getElementById('audio');
+/*function audioplay() {
     if (isplaying == 0) {
         audio.play();
         isplaying = 1;
@@ -22,7 +22,7 @@ function audioplay() {
         isplaying = 0;
         audbut.innerText="MUSIC ON";
     }
-}
+}*/
 class Character {
     constructor() {
         this.velocity = { x: 0, y: 0 };
