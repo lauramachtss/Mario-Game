@@ -9,7 +9,9 @@ Botão de Reinício: Após o término do jogo, o jogador pode reiniciá-lo facil
 Novas Teclas de Funcionalidade: Além das teclas de salto existentes, foram adicionadas novas teclas de funcionalidade, oferecendo mais opções de interação durante o jogo.
 
 
-Créditos
+
+
+CRÉDITOS
 
 Link de acesso ao vídeo do projeto inicial: https://youtu.be/r9buAwVBDhA
 
