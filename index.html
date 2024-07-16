@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;900&family=Poppins&family=Press+Start+2P&family=Roboto+Mono&family=VT323&display=swap');
+
+    body {
+      overflow: hidden;
+      height: 100vh;
+      display: flex;
+      background-color: black;
+      color: white;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Press Start 2P', cursive;
+    }
+
+    h1 {
+      font-size: 3em;
+      text-decoration: underline;
+    }
+
+    li {
+      font-size: 1.5em;
+    }
+
+    p {
+      font-size: 2.5em;
+      color: red;
+    }
+  </style>
+  <title>Document</title>
+</head>
+
+<body id="front">
+  <img src="images/icon.png">
+  <div>
+    <hr>
+    <h1>INSTRUCTIONS</h1>
+    <ul>
+      <li>Use arrow keys to navigate the character through the world.</li><br>
+      <li>Player will get 3 lives and 100 seconds to complete the game.</li><br>
+      <li>Collecting coins will add 50 to scoreboard.</li><br>
+      <li>Colliding with monsters will kill the character and jumping on them kills monster, adding 100 to the scoreboard.
+      </li><br>
+      <li>Falling off the platform will kill the character.</li><br>
+    </ul>
+    <hr>
+    <p>PRESS ENTER TO CONTINUE</p>
+  </div>
+
+</body>
+<script>
+  var pressed = true;
+  var frontpage = document.getElementById('front');
+  function fade_out(thing) {
+    let opacity = 1;
+    thing.style.opacity = opacity;
+
+    let id = setInterval(function () {
+      opacity -= 0.0625;
+      thing.style.opacity = opacity;
+
+      if (opacity == 0) {
+        thing.style.display = "none";
+        window.open("mario.html", "_self");
+        clearInterval(id);
+      }
+    }, 50);
+  }
+  window.addEventListener("keydown", (event) => {
+    if (pressed) {
+      switch (event.key) {
+        case "Enter": fade_out(frontpage); pressed = false;
+      }
+    }
+  });
+
+</script>
+
+</html>
