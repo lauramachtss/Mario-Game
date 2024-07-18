@@ -6,17 +6,9 @@
     box-sizing: border-box;
     font-family: 'Press Start 2P', cursive;
 }
-#audio{
-    position: fixed;
-    width: 150px;
-    height:40px;
-    top: 100px;
-    left: 40px;
-    border: 0px;
-}
+
 
 canvas {
-
     background-image: url("images/bg.webp");
     background-size: cover;
 }
@@ -55,9 +47,6 @@ canvas {
     display: flex;
     margin-right:2%;
 }
-/* #audio-score{
-    flex-direction: column;
-} */
 
 #liveicon{
     height: 45px;
